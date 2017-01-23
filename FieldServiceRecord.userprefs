@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{B39AD204-4A6D-4D28-857A-DFB42087DF73}|Default">
+  <MonoDevelop.Ide.ItemProperties.FieldServiceRecord.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.08F11CCB-0BAF-46A4-A200-FB56C316CEF8" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FieldServiceRecord/Helpers/Settings.cs">
+    <Files>
+      <File FileName="FieldServiceRecord/FieldServiceRecord.cs" Line="1" Column="1" />
+      <File FileName="FieldServiceRecord/Pages/MainTabPage.cs" Line="16" Column="1" />
+      <File FileName="FieldServiceRecord/Models/Street.cs" Line="3" Column="1" />
+      <File FileName="FieldServiceRecord/Helpers/Enums.cs" Line="4" Column="22" />
+      <File FileName="FieldServiceRecord/Models/Territory.cs" Line="18" Column="21" />
+      <File FileName="FieldServiceRecord/Models/House.cs" Line="30" Column="6" />
+      <File FileName="FieldServiceRecord/Helpers/Settings.cs" Line="8" Column="89" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
