@@ -8,21 +8,9 @@ namespace FieldServiceRecord
   {
     public App ()
     {
-      // The root page of your application
-      var content = new ContentPage {
-        Title = "FieldServiceRecord",
-        Content = new StackLayout {
-          VerticalOptions = LayoutOptions.Center,
-          Children = {
-            new Label {
-              HorizontalTextAlignment = TextAlignment.Center,
-              Text = "Welcome to Xamarin Forms!"
-            }
-          }
-        }
-      };
 
-      MainPage = new NavigationPage (content);
+      var a = FSRDatabase.Current.Create ().Result;
+			MainPage = new MainTabPageCS();
     }
 
     protected override void OnStart ()

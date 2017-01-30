@@ -1,18 +1,23 @@
 ﻿using System;
+using SQLite;
+
 namespace FieldServiceRecord
 {
   public class Publisher
   {
-    public int Id {
+    [PrimaryKey, AutoIncrement]
+    public uint Id {
       get;
       set;
     }
 
+    [NotNull]
     public string FirstName {
       get;
       set;
     }
 
+    [NotNull]
     public string LastName {
       get;
       set;
@@ -28,7 +33,18 @@ namespace FieldServiceRecord
       set;
     }
 
+    [NotNull]
     public bool IsPrimary {
+      get;
+      set;
+    }
+
+    public DateTime AddedOn {
+      get;
+      set;
+    }
+
+    public DateTime UpdatedOn {
       get;
       set;
     }

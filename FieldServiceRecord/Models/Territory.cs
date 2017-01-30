@@ -1,21 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using SQLite;
             
 namespace FieldServiceRecord
 {
   public class Territory
   {
-    public int Id {
+    [PrimaryKey, AutoIncrement]
+    public uint Id {
       get;
       set;
     }
 
-    public List<Street> Streets {
+    [NotNull]
+    public uint Number {
       get;
       set;
     }
 
-    public Publisher Owner {
+    public string Name {
+      get;
+      set;
+    }
+
+    public uint PublisherId {
       get;
       set;
     }
@@ -24,6 +32,32 @@ namespace FieldServiceRecord
       get;
       set;
     }
+
+    public string City {
+      get;
+      set;
+    }
+
+    public string State {
+      get;
+      set;
+    }
+
+    public string ZipCode {
+      get;
+      set;
+    }
+
+    public DateTime AddedOn {
+      get;
+      set;
+    }
+
+    public DateTime UpdatedOn {
+      get;
+      set;
+    }
+
 
 
     public Territory ()

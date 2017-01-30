@@ -1,19 +1,42 @@
 ﻿<Properties StartupConfiguration="{B39AD204-4A6D-4D28-857A-DFB42087DF73}|Default">
   <MonoDevelop.Ide.ItemProperties.FieldServiceRecord.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.08F11CCB-0BAF-46A4-A200-FB56C316CEF8" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FieldServiceRecord/Helpers/Settings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FieldServiceRecord/FieldServiceRecord.cs">
     <Files>
-      <File FileName="FieldServiceRecord/FieldServiceRecord.cs" Line="1" Column="1" />
-      <File FileName="FieldServiceRecord/Pages/MainTabPage.cs" Line="16" Column="1" />
-      <File FileName="FieldServiceRecord/Models/Street.cs" Line="3" Column="1" />
-      <File FileName="FieldServiceRecord/Helpers/Enums.cs" Line="4" Column="22" />
-      <File FileName="FieldServiceRecord/Models/Territory.cs" Line="18" Column="21" />
-      <File FileName="FieldServiceRecord/Models/House.cs" Line="30" Column="6" />
-      <File FileName="FieldServiceRecord/Helpers/Settings.cs" Line="8" Column="89" />
+      <File FileName="FieldServiceRecord/FieldServiceRecord.cs" Line="32" Column="1" />
+      <File FileName="FieldServiceRecord/Pages/MainTabPageCS.cs" Line="14" Column="37" />
+      <File FileName="FieldServiceRecord/Pages/HistoryPageCS.cs" Line="12" Column="55" />
+      <File FileName="FieldServiceRecord/Pages/RecordPageCS.cs" Line="12" Column="55" />
+      <File FileName="FieldServiceRecord/Pages/SettingsPageCS.cs" Line="12" Column="71" />
+      <File FileName="FieldServiceRecord/Models/Street.cs" Line="39" Column="19" />
+      <File FileName="FieldServiceRecord/Pages/MapPageCS.cs" Line="32" Column="7" />
+      <File FileName="FieldServiceRecord/Models/Territory.cs" Line="15" Column="14" />
+      <File FileName="FieldServiceRecord/Models/House.cs" Line="47" Column="6" />
+      <File FileName="FieldServiceRecord/Models/Publisher.cs" Line="36" Column="14" />
+      <File FileName="FieldServiceRecord/Models/ReturnVisit.cs" Line="8" Column="32" />
+      <File FileName="FieldServiceRecord/Helpers/Enums.cs" Line="8" Column="9" />
+      <File FileName="FieldServiceRecord/Models/Location.cs" Line="25" Column="5" />
+      <File FileName="FieldServiceRecord/Helpers/Database.cs" Line="19" Column="5" />
+      <File FileName="FieldServiceRecord/Helpers/Settings.cs" Line="25" Column="67" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FieldServiceRecord" expanded="True">
+            <Node name="FieldServiceRecord" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FieldServiceRecord.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
 </Properties>

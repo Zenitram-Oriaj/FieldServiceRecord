@@ -1,20 +1,23 @@
 ﻿using System;
+using SQLite;
 
 namespace FieldServiceRecord
 {
   public class House
   {
+    [PrimaryKey, AutoIncrement]
+    public uint Id {
+      get;
+      set;
+    }
+
+    [NotNull]
     public uint Number {
       get;
       set;
     }
 
-    public DateTime Date {
-      get;
-      set;
-    }
-
-    public  Symbols Symbol {
+    public Symbols Symbol {
       get;
       set;
     }
@@ -24,10 +27,21 @@ namespace FieldServiceRecord
       set;
     }
 
-    public int Attempts {
+    public uint Attempts {
       get;
       set;
     }
+
+    public DateTime AddedOn {
+      get;
+      set;
+    }
+
+    public DateTime UpdatedOn {
+      get;
+      set;
+    }
+
 
     public House ()
     {

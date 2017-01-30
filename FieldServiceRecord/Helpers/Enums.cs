@@ -5,6 +5,7 @@ namespace FieldServiceRecord
   {
     NH,
     CA,
+    DNC,
     B,
     M,
     W,
