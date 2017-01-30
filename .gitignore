@@ -1,0 +1,8 @@
+FieldServiceRecord/bin/
+FieldServiceRecord/obj/
+packages/
+iOS/obj/
+iOS/bin/
+Droid/bin/
+Droid/obj/
+*.cache
