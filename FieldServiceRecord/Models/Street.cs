@@ -72,7 +72,9 @@ namespace FieldServiceRecord
 
     public Street ()
     {
-      
+			Name = "";
+			TerritoryId = 0;
+			AddedOn = DateTime.Now;
     }
   }
 }

@@ -5,21 +5,23 @@ using Xamarin.Forms.Maps;
 using Plugin.Geolocator;
 using System.Diagnostics;
 using System.Linq;
+using FieldServiceRecord.Helpers;
 
 namespace FieldServiceRecord
 {
-  public class MapPageCS : ContentPage
+  public class MapPage : ContentPage
   {
     Geocoder geoCoder;
     Position position;
     Map map;
     Label lblAddr;
 
-    public MapPageCS ()
+    public MapPage ()
     {
 
       Title = "Map";
-      Padding = new Thickness (0, Device.OnPlatform (20, 0, 0), 0, 0);
+			Padding = ThemeSet.PadDevice;
+			BackgroundColor = ThemeSet.BackgroundColor;
 
       map = new Map (MapSpan.FromCenterAndRadius (new Position (37, -122), Distance.FromMiles (1))) {
         IsShowingUser = true,
@@ -28,8 +30,6 @@ namespace FieldServiceRecord
         WidthRequest = 960,
         VerticalOptions = LayoutOptions.FillAndExpand
       };
-
-
 
       lblAddr = new Label {
         Text = "WAITING"

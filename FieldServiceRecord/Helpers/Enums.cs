@@ -11,4 +11,14 @@ namespace FieldServiceRecord
     W,
     C
   }
+
+	public enum Schema
+	{
+		Dark,
+		Rose,
+		Ocean,
+		Desert,
+		Light,
+		Basic
+	}
 }

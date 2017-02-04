@@ -10,11 +10,10 @@ namespace FieldServiceRecord
     {
       Title = "Home";
 
-      Children.Add (new RecordPageCS());
-      Children.Add (new MapPageCS());
-      Children.Add (new HistoryPageCS());
-      Children.Add (new SettingsPageCS());
-
+      Children.Add (new RecordListPage());
+      Children.Add (new MapPage());
+      Children.Add (new HistoryPage());
+      Children.Add (new SettingsPage());
     }
   }
 }
